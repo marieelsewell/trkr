@@ -1,0 +1,37 @@
+* {
+  font-family: 'Playfair Display', serif;
+  color: #1C2222;
+}
+
+body {
+  background: linear-gradient(to bottom, #6EA0A0, #D7F4F4); 
+}
+
+nav {
+  padding: 1em;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+nav a {
+  color: white;
+  margin-right: 1em;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+router-view {
+  flex: 1;
+}
+
